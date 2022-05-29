@@ -1,5 +1,5 @@
 // ビンゴマシーンのプログラム
-    var max = 99;                      // 表示する数値の最大値
+    var max = 75;                      // 表示する数値の最大値
     var bingo = [];
 
     for (var i = 1; i <= max; i++) {
@@ -15,6 +15,3 @@
 
 let num = dice();
 document.getElementById('bingo').innerHTML = num;
-
-
-
